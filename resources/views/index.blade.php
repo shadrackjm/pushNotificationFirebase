@@ -35,23 +35,14 @@
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase.js"></script>
 <script>
-    // var firebaseConfig = {
-    //     apiKey: 'api-key',
-    //     authDomain: 'project-id.firebaseapp.com',
-    //     databaseURL: 'https://project-id.firebaseio.com',
-    //     projectId: 'project-id',
-    //     storageBucket: 'project-id.appspot.com',
-    //     messagingSenderId: 'sender-id',
-    //     appId: 'app-id',
-    //     measurementId: 'G-measurement-id',
-    // };
+   
     const firebaseConfig = {
-  apiKey: "AIzaSyB5NaG9fzp7ZzYPNV7_Unl9jHtzUEKsPLs",
-  authDomain: "push-notification-app-15f6d.firebaseapp.com",
-  projectId: "push-notification-app-15f6d",
-  storageBucket: "push-notification-app-15f6d.appspot.com",
-  messagingSenderId: "645901941142",
-  appId: "1:645901941142:web:e7047672e14426e6c405b7"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
     firebase.initializeApp(firebaseConfig);
     const messaging = firebase.messaging();
