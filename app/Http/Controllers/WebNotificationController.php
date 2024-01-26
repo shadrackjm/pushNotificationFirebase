@@ -22,7 +22,7 @@ class WebNotificationController extends Controller
         $url = 'https://fcm.googleapis.com/fcm/send';
         $FcmToken = User::whereNotNull('device_key')->pluck('device_key')->all();
           
-        $serverKey = 'AAAAlmLBeZY:APA91bENKUHrRjSTEphEbNl3KC4F4x8v7e_Twk0_H_ncOTSGsSpKmaunko8aavj3jd-kDZq8z0QeMigDxRYG2ScyiXPmqx1FvhIwS9rxP5LbRtY3czxRpe3PnD1lpB3mbRYa1CAiMMkm';
+        $serverKey = '';
   
         $data = [
             "registration_ids" => $FcmToken,
